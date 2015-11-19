@@ -10,10 +10,15 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
 
 }
 *,*::before, *::after {
   box-sizing: inherit;
+}
+
+.button{
+  color: black;
+  text-decoration: none;
+  border: 1px solid #000;
 }
