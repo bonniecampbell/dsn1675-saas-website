@@ -17,8 +17,97 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  background-color: darkgrey;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+	background-color: grey;
+}
+
+.nav {
+  background-color: lightgrey;
+  width: 50%;
+}
+
+nav-label{
+  cursor: pointer;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav :hover {
+  color: white;
+}
+
+
+
+.opening {
+  background-image: url(" http://placehold.it/1600x727");
+  background-repeat: no-repeat;
+  background-position: no-repeat center;
+}
+
 .button{
   color: black;
   text-decoration: none;
   border: 1px solid #000;
+  font-family: 'Satisfy', cursive;
+}
+
+.tour {
+  background-image: url(" http://placehold.it/1600x727");
+  background-repeat: no-repeat;
+  background-position: no-repeat center;
+}
+
+.list a{
+  text-decoration: none;
+}
+
+.list {
+  background-color: lightgrey;
+  width: 100%;
+  overflow:
+}
+
+.list a {
+  color: black;
+}
+
+@media only screen and (min-width: 25em) {
+
+  footer {
+    text-align: center;
+  }
+
+  footer li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+.logos img {
+  padding-top: 3.5em;
+}
+
+
 }
