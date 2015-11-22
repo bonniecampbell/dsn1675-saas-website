@@ -14,12 +14,17 @@
 </head>
 <body>
 
-  <header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to main navigation</a></li>
+  </ul>
+
+  <header class="masthead" role="banner">
     <img src=" http://placehold.it/70x50" alt="#">
 
     <input type="checkbox" class="nav-check" id="nav-check">
       <label class="nav-label" for="nav-check">Navigate</label>
-    <nav class="nav">
+    <nav class="nav" id="nav" role="navigation">
       <ol class="list-group island-half push-0">
         <li><a class="island-quarter kilo" href="index.html">Homepage</a></li>
         <li><a class="island-quarter kilo" href="tour.html">Tour</a></li>
@@ -30,13 +35,13 @@
 
   </header>
 
-  <main>
+  <main id="main" role="main">
   <div class="opening">
     <div class="grid">
       <div class="unit xs-1 s-2-3 m-2-3 l-2-3 gutter">
 
         <h1 class="exa">Create Your Wedding Your Way</h1>
-        <p class="kilo">Organized, step by step, with everything you need in one pace to plan and execute your wedding flawlessly</p>
+        <p class="kilo">Organized, step by step, with everything you need in one place to plan and execute your wedding flawlessly</p>
         <ul class="list-group">
           <li><a class="button island-quarter giga" href="signup.html">Sign Up</a></li>
         </ul>
@@ -76,7 +81,7 @@
       <div class="unit xs-1 s-2-3 m-1-2 l-1-2 gutter pad-top-double">
 
         <p class="tera">Follow our Pages </p>
-        <p>We’re on Twitter, Facbook &amp; instagram</p>
+        <p>We’re on Twitter, Facebook &amp; instagram</p>
 
       </div>
 
@@ -94,6 +99,11 @@
 </main>
 
 <footer>
+
+  <div role="contentinfo"
+
+
+  </div>
 
   <div class="list">
     <ol class="list-group list-group--inline island-half push-0">
