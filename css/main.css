@@ -17,8 +17,9 @@ html {
   box-sizing: inherit;
 }
 
-header {
-  background-color: darkgrey;
+}
+.nav-long {
+  display: inline-block;
 }
 
 .nav {
@@ -95,27 +96,35 @@ nav a{
   color: black;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 15em) {
 
-  footer {
-    text-align: center;
-  }
+footer {
+  text-align: center;
+}
 
-  footer li {
-    display: inline-block;
-  }
+footer li {
+  display: inline-block;
+}
+
+.long-nav-div {
+  display: none;
+}
+
+.flyout {
+  display: inline-block;
+}
 
 }
 
 @media only screen and (min-width: 38em) {
 
+.long-nav-div {
+  display: inline-block;
+}
+
 .logos img {
   padding-top: 3.5em;
 }
-
-.opening {
-  padding-bottom: 8em;
-  padding-top: 8em;
 
 }
 
@@ -124,14 +133,21 @@ nav a{
   padding-top: 8em;
 
 }
+.flyout {
+  display: block;
+}
+
+.flyout img{
+  display: none;
+}
+
+.nav-label{
+  display: none;
+}
 
 }
 
 @media only screen and (min-width: 50em) {
-
-.opening {
-  padding-bottom: 16em;
-  padding-top: 9em;
 
   }
 
