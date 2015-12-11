@@ -48,6 +48,16 @@ nav-label{
   cursor: pointer;
 }
 
+
+.logo {
+  width: 40%;
+  padding-left: 1em;
+}
+
+.hamburger {
+  width: 20%;
+}
+
 nav a{
   text-decoration: none;
   color: black;
@@ -60,22 +70,62 @@ nav a{
 
 
 .opening {
-  background-image: url(" http://placehold.it/1600x727");
+  background-image: url(" ../images/couple.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 3em;
+  padding-bottom: 4em;
+  padding-right: 10em;
+  width: 100%;
+}
+
+.long-nav a {
+  color: white;
+}
+
+.long-nav-div {
+  position: relative;
+}
+
+.long-nav-div img {
+  position: absolute;
+  width: 33.3%;
+  top: -0.5em;
+  padding-left: 1em;
+}
+
+.long-nav ol {
+  text-align: center;
+}
+
+.long-nav {
+  margin-left: 10em;
+}
+
+
+.phrase {
+  color: white;
+}
+
+.sub-phrase {
+  color: white;
 }
 
 .button{
-  color: black;
+  color: #ff8571;
   text-decoration: none;
-  border: 1px solid #000;
+  border: 1px solid #ff8571;
   font-family: 'Satisfy', cursive;
 }
 
+.price img {
+  width: 100%
+}
+
+
 .tour {
-  background-image: url(" http://placehold.it/1600x727");
+  background-image: url("../images/wedding-shoe.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 2em;
@@ -87,13 +137,43 @@ nav a{
 }
 
 .list {
-  background-color: lightgrey;
+  background-color:#B2A086;
   width: 100%;
   overflow:
 }
 
 .list a {
-  color: black;
+  color: white;
+}
+
+.tour p{
+  color: white;
+}
+
+.logos a {
+
+  text-decoration: none;
+
+}
+
+.facebook img {
+  width: 28%;
+  margin-right: 0.5em;
+}
+
+.instagram img {
+  width: 28%;
+  margin-right: 0.5em;
+}
+
+
+.pintrest img {
+  width: 28%;
+  margin-right: 0.5em;
+}
+
+.tour-nav {
+  background-color: #B2A086;
 }
 
 @media only screen and (min-width: 15em) {
@@ -114,18 +194,25 @@ footer li {
   display: inline-block;
 }
 
+.price p {
+  padding-top: 0;
+}
+
 }
 
 @media only screen and (min-width: 38em) {
 
-.long-nav-div {
-  display: inline-block;
+  .long-nav-div {
+    display: inline-block;
+  }
+
 }
+
+@media only screen and (min-width: 38em) {
+
 
 .logos img {
   padding-top: 3.5em;
-}
-
 }
 
 .tour {
@@ -145,12 +232,24 @@ footer li {
   display: none;
 }
 
+.price p {
+  padding-top: 2.3em;
 }
 
-@media only screen and (min-width: 50em) {
+}
+
+@media only screen and (min-width: 54em) {
+
+.price p {
+  padding-top: 2.7em;
+}
 
   }
 
+  @media only screen and (min-width: 54em) {
 
-
+.price p {
+  padding-top: 2.7em;
 }
+
+  }
