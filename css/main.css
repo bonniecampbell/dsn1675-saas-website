@@ -155,18 +155,12 @@ footer li {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 30em) {
 
-
-.logos img {
-  padding-top: 3.5em;
+.navigation a {
+  display: inline-block;
 }
 
-.tour {
-  padding-bottom: 8em;
-  padding-top: 8em;
-
-}
 
 
 }
