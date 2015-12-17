@@ -17,54 +17,27 @@ html {
   box-sizing: inherit;
 }
 
-}
-.nav-long {
-  display: inline-block;
-}
-
-.nav {
-  display: none;
+header {
+  background-color: #67623C;
 }
 
-.nav-check:checked ~ .nav {
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation ol{
   display: block;
 }
 
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
 
-.nav-check:checked ~ .nav-label {
-	background-color: grey;
-}
-
-.nav {
-  background-color: lightgrey;
+.logo img{
   width: 50%;
 }
 
-nav-label{
-  cursor: pointer;
-}
 
-
-.logo {
-  width: 40%;
-  padding-left: 1em;
-}
-
-.hamburger {
-  width: 20%;
-}
-
-nav a{
-  text-decoration: none;
-  color: black;
-}
-
-.nav :hover {
-  color: white;
+.navigation :hover {
+  color: #FF8671;
 }
 
 
@@ -76,31 +49,7 @@ nav a{
   background-size: cover;
   padding-top: 3em;
   padding-bottom: 4em;
-  padding-right: 10em;
   width: 100%;
-}
-
-.long-nav a {
-  color: white;
-}
-
-.long-nav-div {
-  position: relative;
-}
-
-.long-nav-div img {
-  position: absolute;
-  width: 33.3%;
-  top: -1.5em;
-  padding-left: 1em;
-}
-
-.long-nav ol {
-  text-align: center;
-}
-
-.long-nav {
-  margin-left: 10em;
 }
 
 
@@ -124,26 +73,45 @@ nav a{
 }
 
 
-.tour {
-  background-image: url("../images/wedding-shoe.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding-top: 2em;
-  padding-bottom: 2em;
+.tour-icon {
+  width: 40%
 }
+
+.tour-section p {
+  margin: 0;
+}
+
+.tour-section h1 {
+  margin: 0;
+}
+
+.price-icon {
+  width: 20%
+}
+
+.facebook-icon {
+  width: 20%;
+}
+
+.twitter-icon {
+  width: 20%;
+}
+
+.instagram-icon {
+  width: 20%;
+}
+
 
 .list a{
   text-decoration: none;
+  color: white;
 }
+
 
 .list {
   background-color:#B2A086;
   width: 100%;
   overflow:
-}
-
-.list a {
-  color: white;
 }
 
 .tour p{
@@ -156,21 +124,6 @@ nav a{
 
 }
 
-.facebook img {
-  width: 28%;
-  margin-right: 0.5em;
-}
-
-.instagram img {
-  width: 28%;
-  margin-right: 0.5em;
-}
-
-
-.pintrest img {
-  width: 28%;
-  margin-right: 0.5em;
-}
 
 .tour-nav {
   background-color: #B2A086;
@@ -178,14 +131,23 @@ nav a{
 
 @media only screen and (min-width: 15em) {
 
+.price-section {
+  margin-top: 4em;
+}
+
+.follow-section {
+  margin-top: 4em;
+}
+
+}
+
 footer {
   text-align: center;
 }
 
 footer li {
-  display: inline-block;
+  display: block;
 }
-
 
 .price p {
   padding-top: 0;
@@ -207,10 +169,6 @@ footer li {
 }
 
 
-.price p {
-  padding-top: 2.3em;
-}
-
 }
 
 @media only screen and (min-width: 54em) {
@@ -221,10 +179,15 @@ footer li {
 
   }
 
-  @media only screen and (min-width: 54em) {
+  @media only screen and (min-width: 60em) {
 
-.price p {
-  padding-top: 2.7em;
+.price-section {
+  margin-top: 0;
 }
+
+.follow-section {
+  margin-top: 0;
+}
+
 
   }
