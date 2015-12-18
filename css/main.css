@@ -17,6 +17,19 @@ html {
   box-sizing: inherit;
 }
 
+::-webkit-input-placeholder {
+  color: #67633A;
+}
+::-moz-placeholder {
+  color: #67633A;
+}
+:-ms-input-placeholder {
+  color: #67633A;
+}
+:-moz-placeholder {
+  color: #67633A;
+}
+
 header {
   background-color: #67623C;
 }
