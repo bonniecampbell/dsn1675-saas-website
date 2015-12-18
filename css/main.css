@@ -31,9 +31,17 @@ header {
   display: block;
 }
 
+.logo {
+  text-align: center;
+}
+
 
 .logo img{
   width: 50%;
+}
+
+.navigation {
+  text-align: center;
 }
 
 
@@ -106,6 +114,11 @@ header {
 .list a{
   text-decoration: none;
   color: white;
+  display: inline-block;
+}
+
+.list ol {
+  display: block;
 }
 
 
@@ -120,12 +133,6 @@ header {
 
 .tour p{
   color: white;
-}
-
-.logos a {
-
-  text-decoration: none;
-
 }
 
 
@@ -151,15 +158,19 @@ input {
   color: white;
 }
 
+
 button {
   border: 1px solid #FF8671;
   font-size: 1rem;
-  padding: 0.3250rem;
+  padding: 0.325rem;
+  padding-left: 1em;
+  padding-right: 1em;
   cursor: pointer;
   background-color: white;
   color: #FF8671;
   font-family: 'Satisfy', serif;
 }
+
 
 
 @media only screen and (min-width: 15em) {
@@ -190,6 +201,23 @@ footer li {
   display: inline-block;
 }
 
+.list li {
+  display: inline-block;
+}
+
+}
+
+@media only screen and (min-width: 38em){
+
+.logo img{
+  width: 40%;
+  padding-top: 1.2em;
+}
+
+.navigation li {
+  padding-left: 1em;
+}
+
 }
 
 
@@ -201,6 +229,16 @@ footer li {
 
 .follow-section {
   margin-top: 0;
+}
+
+.navigation {
+  padding-top: 2.5em;
+  text-align: left;
+
+}
+
+.logo {
+  text-align: left;
 }
 
 
