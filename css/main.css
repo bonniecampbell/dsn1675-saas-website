@@ -254,5 +254,13 @@ footer li {
   text-align: left;
 }
 
+.price-section p {
+  padding-top: 1.5em;
+}
+
+.follow-section p {
+  padding-top: 3em;
+}
+
 
   }
