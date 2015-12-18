@@ -263,4 +263,17 @@ footer li {
 }
 
 
-  }
+}
+
+@media only screen and (min-width: 75em) {
+
+.price-section p {
+  padding-top: 2em;
+}
+
+.follow-section p {
+  padding-top: 4em;
+}
+
+
+}
