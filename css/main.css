@@ -24,6 +24,7 @@ header {
 .navigation a {
   color: white;
   text-decoration: none;
+  display: inline-block;
 }
 
 .navigation ol{
@@ -185,7 +186,7 @@ footer li {
 
 @media only screen and (min-width: 30em) {
 
-.navigation a {
+.navigation li {
   display: inline-block;
 }
 
