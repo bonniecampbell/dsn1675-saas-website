@@ -129,6 +129,35 @@ header {
   background-color: #B2A086;
 }
 
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input + label {
+  display: inline;
+}
+
+input {
+  border: 1px white;
+  background-color: #B2A086;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.25em;
+  color: white;
+}
+
+button {
+  border: 1px solid #FF8671;
+  font-size: 1rem;
+  padding: 0.3250rem;
+  cursor: pointer;
+  background-color: white;
+  color: #FF8671;
+  font-family: 'Satisfy', serif;
+}
+
+
 @media only screen and (min-width: 15em) {
 
 .price-section {
@@ -160,8 +189,6 @@ footer li {
 .navigation a {
   display: inline-block;
 }
-
-
 
 }
 

@@ -47,8 +47,100 @@
 </header>
 
   <main>
+  <form action="https://formspree.io/bonnie.jp.campbell@hotmail.com" method="post">
+
+    <div class="pad-top-double gutter">
+      <label for="name">Name<label>
+      <input id="name" required name="name">
+    </div>
+
+    <div class="pad-top-double gutter">
+      <label for="mailing-adress">Mailing Adress<label>
+      <input id="mailing-adress" required name="mailing-adress">
+    </div>
+
+    <div class="pad-top-double gutter">
+      <label for="billing-adress">Billing Adress<label>
+      <input id="billing-adress" required name="billing-adress">
+    </div>
+
+    <div class="pad-top-double gutter">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="you@yours.com">
+    </div>
+
+    <div class="pad-top-double gutter">
+      <label for="user-name">User Name<label>
+      <input id="user-name" required name="user-name">
+    </div>
+
+    <div class="pad-top-double gutter">
+      <label for="password">Password<label>
+      <input id="password" required name="password">
+    </div>
 
 
+    <div class="payment-intro pad-top-double gutter">
+      <h1>Payment Method</h1>
+    </div>
+
+    <div class="pad-top-double gutter pad-bottom">
+      <label for="subject">Choose Your Plan</label>
+      <select id="subject" name="_subject">
+        <option>Pick a Plan</option>
+        <option>The Thrifty Bride</option>
+        <option>The Standard</option>
+        <option>The Big Spender</option>
+      </select>
+    </div>
+
+    <fieldset>
+
+      <legend>Please Choose Your Payment Method</legend>
+      <input id="visa" type="radio" name="payment" value="visa">
+      <label for="visa">Visa</label>
+
+      <input id="mastercard" type="radio" name="payment" value="mastercard">
+      <label for="mastercard">Mastercard</label>
+
+      <input id="pay-pal" type="radio" name="feels" value="pay-pal">
+      <label for="pay-pal">Pay-Pal</label>
+
+      <input id="interact" type="radio" name="feels" value="interact">
+      <label for="interact">Interact/Direct Banking</label>
+
+      <div class="pad-top-double gutter">
+        <label for="card-number">Card Number<label>
+        <input id="card-number" required name="card-number">
+      </div>
+
+      <div class="pad-top-double gutter">
+        <label for="card-name">Name on Card/Primary Card Holder<label>
+        <input id="card-name" required name="card-name">
+      </div>
+
+      <div class="pad-top-double gutter pad-bottom">
+        <label for="cvv">CVV (3 digits on the back of your card)<label>
+        <input id="cvv" required name="cvv">
+      </div>
+
+    </fieldset>
+
+    <div class="message-intro gutter">
+      <p>If you have any questions, please use the message area bellow.<p>
+    </div>
+
+    <div class="gutter">
+      <label for="messages">Message</label>
+      <textarea id="messages" name="messages"></textarea>
+    </div>
+
+    <div class="gutter island-quarte giga">
+      <button type="submit">Send</button>
+    </div>
+
+    <input type="hidden" name="_next" value="https://bonniecampbell.github.io/forms-demo/thanks.html">
+  </form>
   </main>
 
   <footer class="pad-top-double">
@@ -63,11 +155,6 @@
     </div>
 
   </footer>
-
-
-
-
-
 
   </body>
   </html>
